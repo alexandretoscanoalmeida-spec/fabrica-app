@@ -1,0 +1,61 @@
+{
+  "name": "Sistema Tempo Fábrica",
+  "short_name": "TempoFábrica",
+  "description": "Sistema de registro de tempo de trabalho com gestão de encomendas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#764ba2",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "pt-PT",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/23f1.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f6e0-fe0f.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/2692-fe0f.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3ed.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop",
+      "sizes": "800x600",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Iniciar Trabalho",
+      "short_name": "Trabalhar",
+      "description": "Iniciar novo registro de tempo",
+      "url": "/#tab-work",
+      "icons": [{ "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/23f1.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Nova Encomenda",
+      "short_name": "Encomenda",
+      "description": "Adicionar nova encomenda",
+      "url": "/#tab-orders",
+      "icons": [{ "src": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4dc.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

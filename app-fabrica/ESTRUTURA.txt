@@ -1,0 +1,7 @@
+app-fabrica-completo/
+├── index.html          (App principal)
+├── manifest.json       (Configuração PWA)
+├── service-worker.js   (Funcionamento offline)
+├── worker-config.js    (Dados dos trabalhadores)
+├── orders-config.js    (Gestão de encomendas)
+└── README.txt          (Instruções)

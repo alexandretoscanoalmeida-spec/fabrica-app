@@ -1,0 +1,135 @@
+// ========== DADOS INICIAIS DAS ENCOMENDAS ==========
+window.defaultOrders = [
+  {
+    id: 'order_001',
+    code: 'ENC-2024-001',
+    client: 'Móveis Modernos Lda',
+    description: 'Conjunto completo de móveis de sala: sofá 3 lugares, 2 poltronas, mesa centro em vidro',
+    priority: 'alta',
+    deadline: '2024-03-15',
+    status: 'em_producao',
+    createdAt: '2024-01-10',
+    updatedAt: '2024-01-10',
+    estimatedHours: 40,
+    materials: ['madeira carvalho', 'tecido couro', 'vidro temperado']
+  },
+  {
+    id: 'order_002',
+    code: 'ENC-2024-002',
+    client: 'Hotel Mar Azul',
+    description: '50 cabeceiras de cama para quartos padrão, design clássico',
+    priority: 'urgente',
+    deadline: '2024-02-28',
+    status: 'em_producao',
+    createdAt: '2024-01-05',
+    updatedAt: '2024-01-15',
+    estimatedHours: 120,
+    materials: ['mdf', 'verniz mate', 'ferragens cromadas']
+  },
+  {
+    id: 'order_003',
+    code: 'ENC-2024-003',
+    client: 'Restaurante Tradicional',
+    description: 'Mesas de restaurante (20 unidades) com tampo em azulejo português',
+    priority: 'media',
+    deadline: '2024-03-30',
+    status: 'pendente',
+    createdAt: '2024-01-20',
+    updatedAt: '2024-01-20',
+    estimatedHours: 80,
+    materials: ['madeira pinho', 'azulejos', 'ferro forjado']
+  },
+  {
+    id: 'order_004',
+    code: 'ENC-2024-004',
+    client: 'Escola Primária Centro',
+    description: 'Cadeiras infantis (100 unidades) coloridas, altura ajustável',
+    priority: 'alta',
+    deadline: '2024-04-10',
+    status: 'em_producao',
+    createdAt: '2024-01-15',
+    updatedAt: '2024-01-25',
+    estimatedHours: 200,
+    materials: ['plastico reciclado', 'metal', 'tintas atoxicas']
+  },
+  {
+    id: 'order_005',
+    code: 'ENC-2024-005',
+    client: 'Escritórios & Cia',
+    description: 'Mesa de reuniões executiva (6m) com sistema de cablagem integrado',
+    priority: 'media',
+    deadline: '2024-03-20',
+    status: 'pendente',
+    createdAt: '2024-01-18',
+    updatedAt: '2024-01-18',
+    estimatedHours: 60,
+    materials: ['madeira nogueira', 'aço inox', 'vidro']
+  },
+  {
+    id: 'order_006',
+    code: 'ENC-2023-125',
+    client: 'Casa da Avó Maria',
+    description: 'Armário roupeiro antigo restauro completo',
+    priority: 'baixa',
+    deadline: '2024-02-15',
+    status: 'completa',
+    createdAt: '2023-12-10',
+    updatedAt: '2024-01-30',
+    estimatedHours: 25,
+    materials: ['madeira macica', 'verniz', 'puxadores bronze']
+  },
+  {
+    id: 'order_007',
+    code: 'ENC-2024-006',
+    client: 'Clínica Dentária Sorriso',
+    description: 'Balcão de receção com armazenamento integrado',
+    priority: 'alta',
+    deadline: '2024-02-25',
+    status: 'em_producao',
+    createdAt: '2024-01-22',
+    updatedAt: '2024-01-28',
+    estimatedHours: 35,
+    materials: ['corian', 'alumínio', 'leds']
+  },
+  {
+    id: 'order_008',
+    code: 'ENC-2024-007',
+    client: 'Biblioteca Municipal',
+    description: 'Prateleiras modulares para arquivo de livros (30 metros lineares)',
+    priority: 'media',
+    deadline: '2024-04-05',
+    status: 'pendente',
+    createdAt: '2024-01-25',
+    updatedAt: '2024-01-25',
+    estimatedHours: 90,
+    materials: ['madeira compensada', 'ferro', 'tinta epóxi']
+  },
+  {
+    id: 'order_009',
+    code: 'ENC-2024-008',
+    client: 'Café Parisiense',
+    description: 'Mesas de esplanada com tampo em azulejo hidráulico (15 unidades)',
+    priority: 'urgente',
+    deadline: '2024-02-20',
+    status: 'em_producao',
+    createdAt: '2024-01-12',
+    updatedAt: '2024-01-29',
+    estimatedHours: 75,
+    materials: ['ferro fundido', 'azulejos', 'resina']
+  },
+  {
+    id: 'order_010',
+    code: 'ENC-2023-130',
+    client: 'Sr. António Silva',
+    description: 'Cama casal estilo vintage com gavetões',
+    priority: 'baixa',
+    deadline: '2024-01-31',
+    status: 'entregue',
+    createdAt: '2023-12-28',
+    updatedAt: '2024-01-25',
+    estimatedHours: 30,
+    materials: ['madeira cerejeira', 'colchão', 'tecido']
+  }
+];
+
+console.log(`📦 ${window.defaultOrders.length} encomendas padrão carregadas`);
